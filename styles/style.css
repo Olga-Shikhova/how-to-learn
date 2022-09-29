@@ -13,37 +13,75 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  display: flex;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
 }
 
-.logo__logo_place_header {
+.logo {
   position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
-  height: 32px;
+  border: 1px solid red;
   width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+  border: 1px solid red;
+  background-image: url(../images/logo_place_header.svg);
+  top: 30px;
+  left: 64px;
 }
 
 .header__title {
+  border: 1px solid red;
   width: 730px;
+  position: relative;
   margin-left: 64px;
-  justify-content: center;
-  align-items: center;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
 }
 
-.header__main-illustration {
+.header__subtitle {
   position: absolute;
-  height: 765px;
-  width: 608px;
-  align-self: flex-end;
+  width: 388px;
+  bottom: 30px;
+  border: 1px solid red;
+  margin-left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  }
+
+.header__main-illustration {
+  border: 1px solid red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/two_again.png);
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
+  position: absolute;
+  border: 1px solid red;
+  background-color: #2f80ed;
   width: 568px;
+  height: 568px;
+  top: 64px;
+  right: 0;
 }
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
