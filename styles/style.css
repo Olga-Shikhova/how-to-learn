@@ -13,7 +13,30 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
   /* выше установили ограничения для секции */
+}
+
+.logo__logo_place_header {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 64px;
+  height: 32px;
+  width: 228px;
+}
+
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__main-illustration {
+  position: absolute;
+  height: 765px;
+  width: 608px;
+  align-self: flex-end;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
