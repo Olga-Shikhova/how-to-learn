@@ -71,7 +71,6 @@
   background-image: url(../images/two_again.png);
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   border: 1px solid red;
@@ -82,11 +81,11 @@
   right: 0;
 }
 
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.two-columns {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
 }
