@@ -1,0 +1,13 @@
+.cards {
+    border: 1px solid red;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    overflow: hidden;
+}
+
+.cards:nth-last-child {
+    align-self: center;
+}
