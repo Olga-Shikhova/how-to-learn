@@ -1,4 +1,13 @@
 .cards__item {
-    border: 1px solid red;
     width: 240px;
+    margin-right: 100px;
+}
+
+.cards__item:nth-of-type(5) {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.cards__item:nth-of-type(3) {
+    margin-right: 0;
 }

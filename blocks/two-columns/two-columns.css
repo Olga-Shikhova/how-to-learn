@@ -1,5 +1,6 @@
 .two-columns {
-    margin: 100px auto;
+    margin-right: auto;
+    margin-left: auto;
     bottom: 0;
     display: flex;
     justify-content: space-between;
